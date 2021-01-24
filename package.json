@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jest"
+    "tests": "jest",
+    "unit:tests": "jest tests/unit",
+    "e2e:tests": "jest tests/e2e"
   },
   "author": "Michel Maes",
   "license": "ISC",
