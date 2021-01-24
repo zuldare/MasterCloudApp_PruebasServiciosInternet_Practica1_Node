@@ -12,5 +12,10 @@
     "aws-sdk": "^2.618.0",
     "express": "^4.17.1",
     "body-parser": "^1.18.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.1",
+    "testcontainers": "^7.0.0"
   }
 }
